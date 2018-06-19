@@ -1,8 +1,6 @@
 #!/bin/bash
+#kudos -> https://gist.github.com/djoreilly/1cf74c684cf03da06ea6
 #================
-
-#!/bin/bash
-
 if [ $# -ne 2 ]; then
     echo "usage: $0 port_num ovs_br"
     exit 1
