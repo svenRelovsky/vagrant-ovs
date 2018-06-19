@@ -27,3 +27,10 @@ systemctl enable openvswitch
 ovs-vsctl -V
 
 
+bash ./add-port 1 br1
+bash ./add-port 2 br2
+
+bash ./connect-br.sh vm1 vm2 br1 br2
+
+
+
